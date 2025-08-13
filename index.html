@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookFlick - Movies & Books Finder</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: rgba(0,0,0,0.8);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      font-size: 28px;
+      color: #ff3c78;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ff3c78;
+    }
+
+    .hero {
+      height: 100vh;
+      background: url('https://i.pinimg.com/736x/5c/e5/f4/5ce5f4df3b0dc1de3319e46bf8a9774a.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+    .hero-content {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 12px;
+    }
+    .hero-content h2 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+    .hero-content p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    .btn {
+      background: #ff3c78;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      cursor: pointer;
+      margin: 10px;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: #e62e6b;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📚 BookFlick 🎬</h1>
+  <nav>
+    <a href="login.html">Login</a>
+     <a href="signup.html">Sign Up</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>Find Your Next Movie or Book</h2>
+    <p>Search, explore, and discover your favorites in seconds!</p>
+    <a href="movies.html" class="btn">🎥 Movies</a>
+    <a href="books.html" class="btn">📖 Books</a>
+  </div>
+</section>
+
+</body>
+</html>
